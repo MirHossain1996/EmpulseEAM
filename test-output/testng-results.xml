@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38959" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38959" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:40 IST">
+      <class name="com.EmpulseEAM.TestNG.VisitorEntryTest">
+        <test-method status="PASS" signature="configDataBase()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configDataBase" is-config="true" duration-ms="0" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configDataBase -->
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configBeforeClass" is-config="true" duration-ms="13335" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configBM" is-config="true" duration-ms="520" started-at="2023-01-28T23:37:15 IST" finished-at="2023-01-28T23:37:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="visitorDetails()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="visitorDetails" duration-ms="23782" started-at="2023-01-28T23:37:15 IST" finished-at="2023-01-28T23:37:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitorDetails -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configAM" is-config="true" duration-ms="385" started-at="2023-01-28T23:37:39 IST" finished-at="2023-01-28T23:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configAC" is-config="true" duration-ms="880" started-at="2023-01-28T23:37:40 IST" finished-at="2023-01-28T23:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="disconnectDB()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="disconnectDB" is-config="true" duration-ms="0" started-at="2023-01-28T23:37:40 IST" finished-at="2023-01-28T23:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+      </class> <!-- com.EmpulseEAM.TestNG.VisitorEntryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
