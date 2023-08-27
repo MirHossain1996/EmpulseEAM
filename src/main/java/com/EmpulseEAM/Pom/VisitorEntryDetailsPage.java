@@ -139,15 +139,15 @@ public class VisitorEntryDetailsPage {
 		visitorId.sendKeys(visitorid);
 		totalmember.sendKeys(totalNumOfMem);
 		
-		Thread.sleep(2000);
+		
 		idDateTime.click();
 		dateforId.click();
 		
-		Thread.sleep(2000);
+		
 		outDatetime.click();
 		DateforOut.click();
 		
-		Thread.sleep(2000);
+		
 		purposeOfVisit.click();
 		purposeOfVisitOptin.click();
 		
@@ -158,22 +158,21 @@ public class VisitorEntryDetailsPage {
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+		
 		
 		idcardStatus.click();
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
 		
 		
-		File f=new File("./src/test/resources/Chay.docx");
+		File f=new File("./src/test/resources/Indian_Flag.jpg");
 		String absulatepath = f.getAbsolutePath();
 		upload.sendKeys(absulatepath);
-		Thread.sleep(3000);
+		
 		
 		submit.click();
-		Thread.sleep(3000);
+		
 		close.click();
 
 	}

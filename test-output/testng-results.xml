@@ -1,37 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38959" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:40 IST">
+  <suite started-at="2023-08-27T10:38:34 IST" name="Default suite" finished-at="2023-08-27T10:39:10 IST" duration-ms="35188">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38959" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:40 IST">
+    <test started-at="2023-08-27T10:38:34 IST" name="Default test" finished-at="2023-08-27T10:39:10 IST" duration-ms="35188">
       <class name="com.EmpulseEAM.TestNG.VisitorEntryTest">
-        <test-method status="PASS" signature="configDataBase()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configDataBase" is-config="true" duration-ms="0" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:01 IST">
+        <test-method is-config="true" signature="configDataBase()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:38:34 IST" name="configDataBase" finished-at="2023-08-27T10:38:34 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configDataBase -->
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configBeforeClass" is-config="true" duration-ms="13335" started-at="2023-01-28T23:37:01 IST" finished-at="2023-01-28T23:37:15 IST">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:38:35 IST" name="configBeforeClass" finished-at="2023-08-27T10:39:09 IST" duration-ms="34828" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 113.0.5672.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00BEF243]
+(No symbol) [0x00B77FD1]
+(No symbol) [0x00A6D04D]
+(No symbol) [0x00A8F6B4]
+(No symbol) [0x00A8A97C]
+(No symbol) [0x00A882E9]
+(No symbol) [0x00ABF056]
+(No symbol) [0x00ABEB2A]
+(No symbol) [0x00AB8386]
+(No symbol) [0x00A9163C]
+(No symbol) [0x00A9269D]
+GetHandleVerifier [0x00E89A22+2655074]
+GetHandleVerifier [0x00E7CA24+2601828]
+GetHandleVerifier [0x00C98C0A+619850]
+GetHandleVerifier [0x00C97830+614768]
+(No symbol) [0x00B805FC]
+(No symbol) [0x00B85968]
+(No symbol) [0x00B85A55]
+(No symbol) [0x00B9051B]
+BaseThreadInitThunk [0x757700F9+25]
+RtlGetAppContainerNamedObjectPath [0x771D7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x771D7B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 113.0.5672.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00BEF243]
+(No symbol) [0x00B77FD1]
+(No symbol) [0x00A6D04D]
+(No symbol) [0x00A8F6B4]
+(No symbol) [0x00A8A97C]
+(No symbol) [0x00A882E9]
+(No symbol) [0x00ABF056]
+(No symbol) [0x00ABEB2A]
+(No symbol) [0x00AB8386]
+(No symbol) [0x00A9163C]
+(No symbol) [0x00A9269D]
+GetHandleVerifier [0x00E89A22+2655074]
+GetHandleVerifier [0x00E7CA24+2601828]
+GetHandleVerifier [0x00C98C0A+619850]
+GetHandleVerifier [0x00C97830+614768]
+(No symbol) [0x00B805FC]
+(No symbol) [0x00B85968]
+(No symbol) [0x00B85A55]
+(No symbol) [0x00B9051B]
+BaseThreadInitThunk [0x757700F9+25]
+RtlGetAppContainerNamedObjectPath [0x771D7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x771D7B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.Empulse.GenricUtility.BaseClass.configBeforeClass(BaseClass.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configBM" is-config="true" duration-ms="520" started-at="2023-01-28T23:37:15 IST" finished-at="2023-01-28T23:37:15 IST">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:39:10 IST" name="configBM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693112950104" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="visitorDetails()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="visitorDetails" duration-ms="23782" started-at="2023-01-28T23:37:15 IST" finished-at="2023-01-28T23:37:39 IST">
+        <test-method signature="visitorDetails()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:39:10 IST" name="visitorDetails" finished-at="2023-08-27T10:39:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 113.0.5672.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00BEF243]
+(No symbol) [0x00B77FD1]
+(No symbol) [0x00A6D04D]
+(No symbol) [0x00A8F6B4]
+(No symbol) [0x00A8A97C]
+(No symbol) [0x00A882E9]
+(No symbol) [0x00ABF056]
+(No symbol) [0x00ABEB2A]
+(No symbol) [0x00AB8386]
+(No symbol) [0x00A9163C]
+(No symbol) [0x00A9269D]
+GetHandleVerifier [0x00E89A22+2655074]
+GetHandleVerifier [0x00E7CA24+2601828]
+GetHandleVerifier [0x00C98C0A+619850]
+GetHandleVerifier [0x00C97830+614768]
+(No symbol) [0x00B805FC]
+(No symbol) [0x00B85968]
+(No symbol) [0x00B85A55]
+(No symbol) [0x00B9051B]
+BaseThreadInitThunk [0x757700F9+25]
+RtlGetAppContainerNamedObjectPath [0x771D7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x771D7B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 113.0.5672.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00BEF243]
+(No symbol) [0x00B77FD1]
+(No symbol) [0x00A6D04D]
+(No symbol) [0x00A8F6B4]
+(No symbol) [0x00A8A97C]
+(No symbol) [0x00A882E9]
+(No symbol) [0x00ABF056]
+(No symbol) [0x00ABEB2A]
+(No symbol) [0x00AB8386]
+(No symbol) [0x00A9163C]
+(No symbol) [0x00A9269D]
+GetHandleVerifier [0x00E89A22+2655074]
+GetHandleVerifier [0x00E7CA24+2601828]
+GetHandleVerifier [0x00C98C0A+619850]
+GetHandleVerifier [0x00C97830+614768]
+(No symbol) [0x00B805FC]
+(No symbol) [0x00B85968]
+(No symbol) [0x00B85A55]
+(No symbol) [0x00B9051B]
+BaseThreadInitThunk [0x757700F9+25]
+RtlGetAppContainerNamedObjectPath [0x771D7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x771D7B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.Empulse.GenricUtility.BaseClass.configBeforeClass(BaseClass.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visitorDetails -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configAM" is-config="true" duration-ms="385" started-at="2023-01-28T23:37:39 IST" finished-at="2023-01-28T23:37:40 IST">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:39:10 IST" name="configAM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693112950139" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="configAC" is-config="true" duration-ms="880" started-at="2023-01-28T23:37:40 IST" finished-at="2023-01-28T23:37:40 IST">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:39:10 IST" name="configAC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693112950158" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="disconnectDB()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@757942a1]" name="disconnectDB" is-config="true" duration-ms="0" started-at="2023-01-28T23:37:40 IST" finished-at="2023-01-28T23:37:40 IST">
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:com.EmpulseEAM.TestNG.VisitorEntryTest@402bba4f]" started-at="2023-08-27T10:39:10 IST" name="disconnectDB" finished-at="2023-08-27T10:39:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disconnectDB -->

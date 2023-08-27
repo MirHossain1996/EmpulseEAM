@@ -2,7 +2,7 @@ package com.Empulse.GenricUtility;
 
 public interface IpathContent {
 
-	String filepath="./src/test/resources/Chay.docx";
+	String filepath="./src/test/resources/Indian_Flag.jpg";
 	String url="https://www.empulseudp.com/EmpulseEAM/";
 	String username="Temp@empulse.com";
 	String password="Temp@123";

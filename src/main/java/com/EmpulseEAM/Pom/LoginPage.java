@@ -23,14 +23,14 @@ public class LoginPage {
 		}
 		
 		
-		public WebElement getHrUser() {
+		public WebElement getUser() {
 			return User;
 		}
-		public WebElement getHrPassword() {
+		public WebElement getPassword() {
 			return Password;
 		}
 		
-		public WebElement getHrLogoin() {
+		public WebElement getLogin() {
 			return loginbtn;
 		}
 
